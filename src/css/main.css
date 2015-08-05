@@ -105,6 +105,7 @@ html, body{
     background-image: url("../img/mirandabg.png");
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 700px;
 }
 
 #landing-info{
@@ -138,7 +139,7 @@ p {
 #interests{
     position: absolute;
     font-family: 'Rochester', cursive;
-    font-size: 2vw;
+    font-size: 2.3vw;
     color: #fff;
     width: 100%;
     margin-top: 60%;
@@ -151,6 +152,32 @@ p {
     margin: 0 auto;
 }
 
+.brand-logo img{
+    width: 50%;
+    height: 50%;
+}
+
+/* Menu */
+#menu .left{
+    margin-top: 1.5%;
+    margin-left: 32%;
+}
+
+#menu .right{
+    margin-right: 30%;
+    margin-top: 1.5%;
+}
+
+#menu.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+#menu nav{
+    background-color: #F09CB4;
+}
 
 /* Slider Section */
 #slider{
@@ -158,6 +185,11 @@ p {
     height: 800px;
 }
 
+/* Contact */
+#contact{
+    height: 20%;
+    background-color:#BCA9CF;
+}
 
 
 
@@ -255,14 +287,16 @@ p {
     }
     #hello {
         margin: 0;
-        font-size: 20vw;
+        font-size: 15vw;
         width: 80%;
         padding-left: 10px;
+        color: #fff;
     }
     #who{
         font-size: 4vw;
         width: 80%;
         margin: 0;
+        margin-top: -2%;
         /*text-shadow: 2px 2px 10px #666;*/
     }
     #divider{
@@ -270,10 +304,18 @@ p {
     }
     #interests{
         font-size: 5vw;
-        width: 100%;
-        margin-top: 350px;
-        margin-left: 10px;
+        margin-top:45%;
+        width: 105%;
     }
+    #menu .brand-logo{
+        top: 8%;
+    }
+    #menu .button-collapse{
+        top: 20%;
+        left: 5%;
+    }
+
+
 }
 
 @media print,
